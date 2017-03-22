@@ -1,0 +1,41 @@
+<div ng-controller = "homeController">
+<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<h2 class="bg-info" >{{informessageadd}}</h2>
+				<div class="login-panel panel panel-default">
+					<div class="panel-heading" id="back">
+						<h3 class="panel-title">Đăng nhập</h3>
+					</div>
+					<div class="panel-body">
+						<form role="form" method="Post">
+							<fieldset>
+								<label class="colortext">Tài khoản</label>
+								<div class="form-group">
+									<input class="form-control" id="username" ng-model="username"
+										placeholder="Tài khoản" name="username" type="text" autofocus>
+								</div>
+								<label class="colortext">Mật khẩu</label>
+								<div class="form-group">
+									<input class="form-control" id="password" ng-model="password"
+										placeholder="Mật khẩu" name="password" type="password"
+										value="">
+								</div>
+								<div id="colorText">
+									<h6>{{validate}}</h6>
+								</div>
+								<!-- Change this to a button or input when using this as a form -->
+								<button class="btn btn-lg btn-success btn-block" id="login"
+									ng-click=login()>Đăng nhập</button>
+								<div id="linkcenter">
+									<a class="col-md-6 col-sm-offset-6" data-toggle="modal" href="#/foreCast"
+										data-target="#exampleModal">Đăng ký tài khoản</a>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
