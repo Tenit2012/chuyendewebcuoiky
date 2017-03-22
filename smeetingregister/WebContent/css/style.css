@@ -1,0 +1,99 @@
+.chu {
+	background-color: #3498db;
+	color: #ecf0f1;
+}
+
+.changeCol {
+	background-color: #3498db;
+	color: #ecf0f1;
+}
+
+#header nav {
+	padding-bottom: 1px;
+	text-transform: uppercase;
+}
+
+#upchu {
+	text-transform: uppercase;
+}
+
+calltoAction .jumbotron {
+	text-align: center;
+}
+
+.len {
+	padding-top: 2px;
+	padding-left: 2px;
+}
+
+.churezi {
+	text-transform: uppercase;
+}
+
+.textal {
+	text-align: center;
+	font-size: 20px;
+}
+
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+#toAction .jumbotron{
+	padding-top:100px;
+	padding-bottom:100px;
+	padding-left:0px;
+	padding-right:0px;
+	text-align:center;
+	color:#ecf0f1;
+	background:#3498db url('../img/nen.jpg') center no-repeat;
+	background-size: cover;
+	margin-bottom:0px;
+}
+.glyphicon{
+	font-size:15px;
+	color: #3498db;
+	
+}
+#header nav{
+	background: #ffffff;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-transform:uppercase;
+	-webkit-box-shadow: 0 0px 2px 2px #777;
+	 -moz-box-shadow: 0 0px 2px 2px #777;
+	        box-shadow: 0 0px 2px 2px #777;
+}
+
+#menu .glyphicon{
+	font-size:30px;
+}
+#menu{
+	color:#3498db;
+	text-align:center;
+	padding:20px 0px;
+	
+}
+#noidung{
+	padding-top:0px;
+	padding-bottom: 0px;
+}
+#theend a{
+	color:#FFFFFF;
+	text-transform:uppercase;
+}
+#theend{
+	background:#3498db;
+}
+.bac{
+	background:red;
+}
+.den{
+	background:blue;
+}
+#setw{
+	width:10px;
+}
+.padtop{
+	padding-top:50px;
+}
